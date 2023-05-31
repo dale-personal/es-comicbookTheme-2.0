@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Nintendo
+				
+				Released:  1990
+				
+				Units sold:  49.10 million
+				
+				Best-selling game:  Super Mario World
+				
+				CPU:  8/16-bit Ricoh 5A22 @ 3.58 MHz
+				
+				RAM:  128 KB / VRAM:  64 KB
+				
+				Graphics:  16-bit PPU (Picture Processing Unit)
+				
+				Resolution:  256×224 pixels, 256 colors (32768 color palette)
+				
+				Sound:  8-bit Sony SPC700, 8 channels, stereo
+				
+				Cart size:  256 KB to 6 MB
+			</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  SNK
+				
+				Released:  1999
+				
+				Units sold:  2 million (incl. non-color version)
+				
+				CPU:  Toshiba TLCS900H @ 6.144 MHz + Zilog Z80 @ 3.072 MHz
+				
+				RAM:  12 KB for 900H + 4 KB for Z80
+				
+				ROM:  64 KB
+				
+				Resolution:  160×152 pixels, 146 colors
+				
+				Media:  Cartridge, 4 MB max.
+			</text>
+        </text>
+    </view>
+</theme>

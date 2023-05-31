@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  General Consumer Electronics
+				
+				Released:  1982
+				
+				CPU:  Motorola MC68A09 @ 1.5 MHz
+				
+				RAM:  1 KB (two 4-bit 2114 chips)
+				
+				ROM:  8 KB (one 8-bit 2363 chip)
+				
+				Display:  Built-in 9-inch monochrome CRT
+				
+				Sound:  General Instrument AY-3-8912
+				
+				Media:  32 KB cartridge
+			</text>
+        </text>
+    </view>
+</theme>

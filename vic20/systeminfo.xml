@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Commodore Business Machines
+				
+				Released:  1980
+				
+				Units sold:  2.5 million
+				
+				OS:  Commodore KERNAL / Commodore BASIC 2.0
+				
+				CPU:  MOS 6502 @ 1.108 MHz (PAL) / 1.02 MHz (NTSC)
+				
+				RAM:  5 KB (expandable to 32 KB)
+				
+				ROM:  20 KB
+				
+				Graphics:  MOS Technology VIC
+				
+				Resolution:  176×184 pixels, 16 colors
+				
+				Sound:  3 x pulse wave generators + white noise
+			</text>
+        </text>
+    </view>
+</theme>

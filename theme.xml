@@ -1,0 +1,13 @@
+<!--
+    Theme engine examples for EmulationStation Desktop Edition (theme-engine-examples-es-de)
+    License: Creative Commons CC-BY-NC-SA
+-->
+
+<theme>
+    <variant name="classic">
+        <include>./classic.xml</include>
+    </variant>
+	<variant name="modern">
+        <include>./modern.xml</include>
+    </variant>
+</theme>

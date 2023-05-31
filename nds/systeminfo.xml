@@ -1,0 +1,25 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Nintendo
+				
+				Released:  2004
+				
+				Units sold:  154.02 million
+				
+				Best-selling game:  New Super Mario Bros.
+				
+				CPU:  ARM9 @ 66 MHz + ARM7 @ 33 MHz
+				
+				RAM:  4 MB / VRAM:  656 KB
+				
+				Screen:  Reflective TFT color LCD
+				
+				Resolution:  256×192 pixels, 260,000 colors
+				
+				Sound:  Stereo speakers w/virtual surround, headphones
+			</text>
+        </text>
+    </view>
+</theme>

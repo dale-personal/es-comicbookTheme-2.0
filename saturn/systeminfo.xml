@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sega
+				
+				Released:  1994
+				
+				Units sold:  9.26 million
+				
+				Best-selling game:  Virtua Fighter 2
+				
+				CPU:  2 x Hitachi SH-2 @ 28.6 MHz
+				
+				RAM:  2 MB / VRAM:  1.5 MB
+				
+				Graphics:  VDP1 (sprite/texture and polygons), VDP2 (backgrounds)
+				
+				Resolution:  320×224 to 704×224 pixels, 16.77 million colors
+				
+				Sound:  Motorola 68EC000 + Yamaha FH1 YMF292, 32 channels
+				
+				Media:  CD-ROM
+			</text>
+        </text>
+    </view>
+</theme>

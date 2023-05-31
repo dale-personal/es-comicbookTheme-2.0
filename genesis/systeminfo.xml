@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sega
+				
+				Released:  1988
+				
+				Released:  1988
+				
+				Units sold:  30.75 million (incl. Mega Drive)
+				
+				Best-selling game:  Sonic the Hedgehog
+				
+				CPU:  Motorola 68000 @ 7.6 MHz + Zilog Z80 @ 3.58 MHz
+				
+				RAM:  64 KB / VRAM:  64 KB / Sound RAM:  8 KB
+				
+				Graphics:  16-bit Sega VDP
+				
+				Resolution:  320×224 pixels, 64 colors (512 color palette)
+				
+				Sound:  Yamaha YM2612 FM + TI SN76489 PSG
+			</text>
+        </text>
+    </view>
+</theme>

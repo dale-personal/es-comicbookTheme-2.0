@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Atari, Inc.
+				
+				Released:  1982
+				
+				Units sold:  1 million
+				
+				CPU:  8-bit MOS Technology 6502C @ 1.79 MHz
+				
+				RAM:  16 KB
+				
+				ROM:  2 KB on-board BIOS + 32 KB window for standard game cartridges
+				
+				Display:  320×192 pixels, 256 colors
+				
+				Sound:  4-channel POKEY chip
+			</text>
+        </text>
+    </view>
+</theme>

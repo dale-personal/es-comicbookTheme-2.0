@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sega
+				
+				Released:  1983
+				
+				Units sold:  2 million
+				
+				Best-selling game:  Flicky
+				
+				CPU:  8-bit Zilog Z80 @ 3.58 MHz
+				
+				RAM:  1 KB / VRAM:  2 KB
+				
+				Graphics:  TI TMS9918
+				
+				Resolution:  256×192 pixels, 16 colors (21 color palette)
+				
+				Sound:  TI SN76489 PSG
+				
+				Cart size:  8 to 48 KB
+			</text>
+        </text>
+    </view>
+</theme>

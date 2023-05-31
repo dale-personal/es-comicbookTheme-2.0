@@ -1,0 +1,290 @@
+<!--
+    Variant 01 - Horizontal carousel and textlist
+-->
+
+<theme>
+    <transitions>slide</transitions>
+
+    <include>./navigationsounds.xml</include>
+    <include>./colors.xml</include>
+	
+	<!-- Per-system platform info -->
+	<include>./${system.theme}/systeminfo.xml</include>
+
+    <variables>
+        <systemLogo>./${system.theme}/logo.svg</systemLogo>
+        <comicRip>./${system.theme}/comic_rip.png</comicRip>\
+		
+    </variables>
+
+    <view name="system">
+	
+		<image name="background">
+            <pos>0 0</pos>
+            <size>1 1</size>
+			<path>./_assets/images/background.png</path>
+            <tile>true</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>0</zIndex>
+        </image>
+		
+	    <video name="backgroundVideo">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./${system.theme}/video.mp4</path>
+            <zIndex>1</zIndex>
+        </video>
+		
+		<image name="noVideoImage">
+            <pos>.5 .5</pos>
+			<maxSize>0.33 0.33</maxSize>
+			<origin>0.5 0.5</origin>
+			<path>./${system.theme}/video.svg</path>
+            <zIndex>2</zIndex>
+        </image>
+
+        <carousel name="systemCarousel">
+            <pos>0.0125 0</pos>
+            <size>0.25 1</size>
+            <type>vertical</type>
+			<color>00000000</color>
+            <staticImage>./${system.theme}/system.png</staticImage>
+            <maxItemCount>3</maxItemCount>
+            <itemSize>0.25 0.155</itemSize>
+            <itemScale>1</itemScale>
+            <imageInterpolation>linear</imageInterpolation>
+            <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+            <lineSpacing>1.2</lineSpacing>
+        </carousel>
+		
+        <text name="gameCounter">
+            <pos>0.0125 0.5937</pos>
+            <size>0.25 0.056</size>
+            <systemdata>gamecount</systemdata>
+			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>${systemGameCounterColor}</color>
+            <backgroundColor>00000000</backgroundColor>
+            <letterCase>uppercase</letterCase>
+            <zIndex>50</zIndex>
+        </text>
+		
+		<image name="systemLogo">
+			<path>${systemLogo}</path>
+			<pos>0.75 0.0125</pos>
+			<size>0.225 0</size>
+			<maxSize>0.225 .015</maxSize>
+        </image>
+
+		<text name="info">
+			<pos>0.75 0.2</pos>
+            <size>0.225 0.75</size>
+			<container>true</container>
+            <fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+            <fontSize>0.02</fontSize>
+            <horizontalAlignment>right</horizontalAlignment>
+        </text>
+       
+		
+        <helpsystem name="help">
+            <pos>0.012 0.955</pos>
+            <textColor>${systemHelpColor}</textColor>
+            <iconColor>${systemHelpColor}</iconColor>
+            <textColorDimmed>${systemHelpColorDimmed}</textColorDimmed>
+            <iconColorDimmed>${systemHelpColorDimmed}</iconColorDimmed>
+            <fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+        </helpsystem>
+
+    </view>
+    
+	<view name="gamelist">
+	
+		<image name="background">
+            <pos>0 0</pos>
+            <size>1 1</size>
+			<path>./_assets/images/background.png</path>
+            <tile>true</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>0</zIndex>
+        </image>
+		
+		<image name="menu">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_assets/images/menu5.png</path>
+            <tile>false</tile>
+            <color>${backgroundColor}</color>
+            <zIndex>1</zIndex>
+        </image>
+		
+		<carousel name="gamelistCarousel">
+			<pos>0.0125 0.15</pos>
+			<size>0.25 0.75</size>
+            <type>vertical</type>
+			<selectedItemMargins>0.05 0.05</selectedItemMargins>
+			<imageType>none</imageType>
+            <maxItemCount>11</maxItemCount>
+            <itemSize>0.25 0.125</itemSize>
+            <itemScale>1</itemScale>
+            <imageInterpolation>linear</imageInterpolation>
+            <itemHorizontalAlignment>left</itemHorizontalAlignment>
+            <horizontalOffset>0</horizontalOffset>
+            <verticalOffset>0</verticalOffset>
+            <color>00000000</color>
+            <fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+            <fontSize>0.025</fontSize>
+            <letterCase>none</letterCase>
+            <lineSpacing>1.3</lineSpacing>
+            <zIndex>80</zIndex>
+        </carousel>
+		
+        <helpsystem name="help">
+            <pos>0.012 0.955</pos>
+            <textColor>${gamelistHelpColor}</textColor>
+            <iconColor>${gamelistHelpColor}</iconColor>
+            <textColorDimmed>${gamelistHelpColorDimmed}</textColorDimmed>
+            <iconColorDimmed>${gamelistHelpColorDimmed}</iconColorDimmed>
+            <fontSize>0.035</fontSize>
+        </helpsystem>
+    
+	</view>
+
+    <view name="gamelist">
+		
+        <video name="gameVideo">
+			<pos>0.501 0.4025</pos>
+			<maxSize>0.43 0.525</maxSize>
+			<imageType>screenshot</imageType>
+			<defaultImage>./_assets/images/default_video.png</defaultImage>
+			<delay>0</delay>
+            <interpolation>nearest</interpolation>
+			<pillarboxes>true</pillarboxes>
+            <pillarboxThreshold>0.85 0.9</pillarboxThreshold>
+			<origin>0.5 0.5</origin>
+        </video>
+       
+		<image name="boxCover">
+			<imageType>cover</imageType>
+			<default>${comicRip}</default>
+			<pos>0.86 0.67</pos>
+			<maxSize>0.26 0.46</maxSize>
+			<origin>0.5 0.5</origin>
+        </image>
+        
+		<image name="marquee">
+			<imageType>marquee</imageType>
+			<default>./${system.theme}/system.png</default>
+			<pos>0.5 0.0625</pos>
+			<maxSize>0.4 0.1</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="systemLogo">
+			<path>${systemLogo}</path>
+			<pos>0.1375 0.0625</pos>
+			<maxSize>0.25 0.1</maxSize>
+			<origin>0.5 0.5</origin>
+        </image>
+		
+		<image name="consoleGame">
+			<path>./${system.theme}/consolegame.svg</path>
+			<pos>0.5 0.805</pos>
+			<maxSize>0.4 0.2</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<rating name="rating">
+			<pos>0.73 0.05</pos>
+			<size>0 0.025</size>
+            <interpolation>nearest</interpolation>
+            <color>${gamelistRatingColor}</color>
+            <filledPath>./_assets/images/rating_filled.svg</filledPath>
+            <unfilledPath>./_assets/images/rating_empty.svg</unfilledPath>
+            <overlay>false</overlay>
+        </rating>
+		
+		<text name="labelReleasedate, labelDeveloper, labelGenre, labelPlayers">
+            <size>0 0.02</size>
+			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+            <color>${gamelistDefaultTextColor}</color>
+            <letterCase>capitalize</letterCase>
+        </text>
+        
+		<text name="developer, genre, players">
+            <size>0 0.02</size>
+			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+            <color>${gamelistDefaultTextColor}</color>
+            <letterCase>capitalize</letterCase>
+        </text>
+        
+		<text name="labelPlayers">
+			<pos>0.73 0.0125</pos>
+            <text>Players:</text>
+            <metadataElement>true</metadataElement>
+        </text>
+        
+		<text name="players">
+			<pos>0.78 0.0125</pos>
+            <metadata>players</metadata>
+        </text>
+		
+		<text name="labelReleasedate">
+			<pos>0.73 0.08</pos>
+            <text>Released:</text>
+            <metadataElement>true</metadataElement>
+        </text>
+        
+		<datetime name="releasedate">
+			<size>0 0.02</size>
+			<fontSize>0.02</fontSize>
+			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+			<color>${gamelistDefaultTextColor}</color>
+			<pos>0.807 0.08</pos>
+            <metadata>releasedate</metadata>
+        </datetime>
+        
+		<text name="labelDeveloper">
+			<pos>0.73 0.11</pos>
+            <text>Developer:</text>
+            <metadataElement>true</metadataElement>
+        </text>
+        
+		<text name="developer">
+			<pos>0.807 0.11</pos>
+            <metadata>developer</metadata>
+        </text>
+        
+		<text name="labelGenre">
+			<pos>0.73 0.14</pos>
+            <text>Genre:</text>
+            <metadataElement>true</metadataElement>
+        </text>
+        
+		<text name="genre">
+			<pos>0.807 0.14</pos>
+            <metadata>genre</metadata>
+        </text>
+		
+		<text name="description">
+			<size>0.26 0.195</size>
+			<pos>0.73 0.2</pos>
+            <container>true</container>
+            <containerVerticalSnap>true</containerVerticalSnap>
+            <containerScrollSpeed>1</containerScrollSpeed>
+            <containerStartDelay>4.5</containerStartDelay>
+            <containerResetDelay>7</containerResetDelay>
+            <metadata>description</metadata>
+			<fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+            <color>${gamelistDefaultTextColor}</color>
+            <letterCase>none</letterCase>
+            <lineSpacing>1.2</lineSpacing>
+        </text>
+		
+    </view>
+
+</theme>

@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sega
+				
+				Released:  1985
+				
+				Units sold:  18 to 21 million (incl. Tectoy variants)
+				
+				Best-selling game:  Alex Kidd in Miracle World
+				
+				CPU:  8-bit Zilog Z80 @ 3.58 MHz
+				
+				RAM:  8 KB / VRAM:  16 KB
+				
+				Graphics:  Sega VDP (custom TI TMS9918)
+				
+				Resolution:  256×192 pixels, 32 colors (64 color palette)
+				
+				Sound:  TI SN76489 PSG, YM2413 FM add-on module
+				
+				Cart size:  32 KB to 1 MB
+			</text>
+        </text>
+    </view>
+</theme>

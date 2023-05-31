@@ -1,0 +1,25 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Commodore International
+				
+				Released:  1993
+				
+				OS:  AmigaOS 3.1
+				
+				CPU:  32-bit Motorola 68EC020 @ 14.18 MHz (PAL) / 14.32 MHz (NTSC)
+				
+				RAM:  2 MB
+				
+				ROM:  1 MB Kickstart w/ CD32 firmware, 1 KB EEPROM for game saves
+				
+				Chipset:  Advanced Graphics Architecture (AGA)
+				
+				Graphics:  Lisa, 320×200 to 1280×400i (NTSC), 320×256 to 1280×512i (PAL)
+				
+				Sound:  Paula, 4 channels, 8-bit stereo PCM
+			</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Atari, Inc.
+				
+				Released:  1977
+				
+				Units sold:  30 million
+				
+				Best-selling game:  Pac-Man
+				
+				CPU:  8-bit MOS 6507 @ 1.19 MHz
+				
+				RAM:  128 bytes
+				
+				Audio/Video Processor:  TIA
+				
+				Resolution:  160×192 pixels, 4 colors per line (128 color palette)
+				
+				Sound:  2 channels of 1-bit monaural sound with 4-bit volume control
+				
+				Cart size:  2 to 32 KB
+			</text>
+        </text>
+    </view>
+</theme>

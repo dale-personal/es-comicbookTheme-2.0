@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Nintendo
+				
+				Released:  1996
+				
+				Units sold:  32.93 million
+				
+				Best-selling game:  Super Mario 64
+				
+				CPU:  64-bit NEC VR4300 (MIPS R4300i) @ 93.75 MHz
+				
+				RAM:  4 MB Rambus RDRAM (8 MB with Expansion Pak)
+				
+				Graphics:  SGI "Reality Coprocessor" @ 62.5 MHz
+				
+				Sound:  16-bit, 48 or 44.1 kHz stereo
+			</text>
+        </text>
+    </view>
+</theme>

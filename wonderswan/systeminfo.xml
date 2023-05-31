@@ -1,0 +1,21 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Bandai
+				
+				Released:  1999
+				
+				Units sold:  3.5 million
+				
+				CPU:  16-bit NEC V30 MZ @ 3.072 MHz
+				
+				RAM:  64 KB shared WRAM/VRAM
+				
+				Resolution:  224×144 pixels
+				
+				Sound:  4 PCM channels, 32 samples 4-bit per channel
+			</text>
+        </text>
+    </view>
+</theme>

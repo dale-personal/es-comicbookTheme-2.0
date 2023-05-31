@@ -1,0 +1,25 @@
+<theme>
+    <view name="system">
+		<text name="info">
+			<text>
+				Manufacturer:  Panasonic, Sanyo, GoldStar
+					
+				Released:  1993
+				
+				Units sold:  2 million
+				
+				CPU:  Custom 32-bit ARM60 @ 12.5 MHz
+				
+				RAM:  2 MB / VRAM:  1 MB
+				
+				ROM:  1 MB
+				
+				Graphics:  2 x custom video coprocessors @ 25 MHz
+				
+				Resolution:  640×480 pixels, 16.7 million colors
+				
+				Sound:  16-bit stereo @ 44.1 kHz
+			</text>
+        </text>
+    </view>
+</theme>

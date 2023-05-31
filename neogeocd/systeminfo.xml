@@ -1,0 +1,21 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  SNK
+				
+				Released:  1994
+				
+				Units sold:  570,000
+				
+				CPU:  16-bit Motorola 68000 @ 12 MHz + 8-bit Zilog Z80A @ 4 MHz
+				
+				RAM:  7 MB
+				
+				Resolution:  320×224 pixels, 4096 colors (65536 color palette)
+				
+				Sound:  Yamaha YM2610
+			</text>
+        </text>
+    </view>
+</theme>

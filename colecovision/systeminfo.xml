@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Coleco
+				
+				Released:  1982
+				
+				Units sold:  2+ million
+				
+				Best-selling game:  Donkey Kong
+				
+				CPU:  8-bit Zilog Z80 @ 3.58 MHz
+				
+				RAM:  1 KB / VRAM:  16 KB
+				
+				Graphics:  Texas Instruments TMS9928A
+				
+				Resolution:  256×192 pixels, 16 colors
+				
+				Sound:  Texas Instruments SN76489A
+				
+				Cart size:  8 to 32 KB
+			</text>
+        </text>
+    </view>
+</theme>

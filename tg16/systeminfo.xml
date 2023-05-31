@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  NEC Home Electronics
+				
+				Released:  1987
+				
+				Units sold:  6.59 million (incl. PC Engine)
+				
+				CPU:  8-bit HuC6280 @ 7.16 MHz
+				
+				RAM:  8 KB / VRAM:  64 KB
+				
+				Graphics:  HuC6270A Video Display Controller
+				
+				Sound:  PSG @ 3.58 MHz, 5 to 10-bit stereo PCM
+				
+				Media:  HuCard
+			</text>
+        </text>
+    </view>
+</theme>

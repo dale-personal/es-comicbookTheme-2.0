@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Nintendo
+				
+				Released:  2001
+				
+				Units sold:  81.51 million
+				
+				Best-selling game:  Pokémon Ruby
+				
+				CPU:  32-bit RISC-CPU @ 16 MHz + 8-bit CISC-CPU
+				
+				RAM:  32 KB internal + 256 KB external / VRAM:  96 KB
+				
+				Screen:  Reflective TFT color LCD
+				
+				Resolution:  240×160 pixels, 32,000 colors
+			</text>
+        </text>
+    </view>
+</theme>

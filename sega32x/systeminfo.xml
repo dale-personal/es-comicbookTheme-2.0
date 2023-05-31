@@ -1,0 +1,25 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sega
+				
+				Released:  1994
+				
+				Units sold:  665,000
+				
+				CPU:  2 x 32-bit Hitachi SH2 @ 23 MHz + Mega Drive CPUs
+				
+				RAM:  256 KB / VRAM:  256 KB
+				
+				Graphics:  32X VDP
+				
+				Resolution:  320×224 pixels, 32768 colors
+				
+				Sound:  Q-Sound 10-bit Stereo PCM chip + Mega Drive sound chips
+				
+				Cart size:  2 to 4 MB
+			</text>
+        </text>
+    </view>
+</theme>

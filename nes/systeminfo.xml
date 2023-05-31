@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Nintendo
+				
+				Released:  1985
+				
+				Units sold:  61.91 million (incl. Famicom)
+				
+				Best-selling game:  Super Mario Bros.
+				
+				CPU:  8-bit Ricoh 2A03 @ 1.66 MHz (PAL) / 1.79 MHz (NTSC)
+				
+				RAM:  2 KB / VRAM:  2 KB
+				
+				Graphics:  8-bit PPU (Picture Processing Unit)
+				
+				Resolution:  256×240 pixels, 25 colors (64 color palette)
+				
+				Sound:  PSG sound (2 square waves, 1 triangle wave, 1 white noise)
+				
+				Cart size:  8 KB to 1 MB
+			</text>
+        </text>
+    </view>
+</theme>

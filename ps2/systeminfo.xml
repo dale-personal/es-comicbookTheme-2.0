@@ -1,0 +1,25 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sony Electronics
+				
+				Released:  2000
+				
+				Units sold:  155 million
+				
+				Best-selling game:  Grand Theft Auto: San Andreas
+				
+				CPU:  MIPS R5900-based "Emotion Engine" @ 294 to 299 MHz
+				
+				RAM:  32 MB RDRAM @ 400 MHz / VRAM:  4 MB
+				
+				Graphics:  Sony "Graphics Synthesizer" @ 149 MHz
+				
+				Resolution:  256×224 to 1920×1080 pixels
+				
+				Media:  DVD, CD-ROM
+			</text>
+        </text>
+    </view>
+</theme>

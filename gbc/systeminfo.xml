@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Nintendo
+				
+				Released:  1998
+				
+				Units sold:  118.69 million (all models)
+				
+				Best-selling game:  Pokemon Gold and Silver
+				
+				CPU:  8-bit Zilog Z80 @ 8.33 MHz
+				
+				RAM:  32 KB / VRAM:  26 KB
+				
+				Graphics:  PPU (embedded in CPU)
+				
+				Resolution:  160×144 pixels, 56 colors (32768 color palette)
+				
+				Sound:  4 channels, stereo
+				
+				Cart size:  256 KB to 8 MB
+			</text>
+        </text>
+    </view>
+</theme>

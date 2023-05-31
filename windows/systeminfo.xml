@@ -1,0 +1,13 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Windows is a group of proprietary graphical operating systems developed and marketed by Microsoft.
+				
+				Introduced in 1985 it would become the dominant choice for desktop computers and has remained so to this day.
+				
+				This also means that there is a massive games library available for the platform spanning multiple decades and all conceivable genres.
+			</text>
+        </text>
+    </view>
+</theme>

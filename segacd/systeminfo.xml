@@ -1,0 +1,28 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Sega
+				
+				Released:  1991
+				
+				Units sold:  2.24 million (CD-ROM add-on)
+				
+				Best-selling game:  Sewer Shark
+				
+				CPU:  16-bit Motorola 68000 @ 12.5 MHz + Genesis CPUs
+				
+				RAM:  512 KB / VRAM:  256 KB / Sound RAM:  16 KB
+				
+				Graphics:  Custom ASIC
+				
+				Resolution:  320×224 pixels, 64 colors (512 color palette)
+				
+				Sound:  Ricoh RF5C164 + Genesis sound chips
+				
+				Media:  500 MB CD-ROM, CD+G
+			</text>
+        </text>
+       
+    </view>
+</theme>

@@ -1,0 +1,27 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Manufacturer:  Mattel Electronics
+				
+				Released:  1979
+				
+				Units sold:  3+ million
+				
+				Best-selling game:  Las Vegas Poker &amp; Blackjack
+				
+				CPU:  16-bit GI CP1610 @ 894.886 kHz
+				
+				RAM:  1 KB
+				
+				Graphics:  General Instrument AY-3-8900-1
+				
+				Resolution:  159×96 pixels, 16 colors
+				
+				Sound:  General Instrument AY-3-8914
+				
+				Cart size:  8 to 32 KB
+			</text>
+        </text>
+    </view>
+</theme>

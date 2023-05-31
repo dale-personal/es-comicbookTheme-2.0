@@ -1,0 +1,35 @@
+<theme>
+
+    <colorScheme name="light">
+        <variables>
+            <!-- Both system and gamelist views -->
+            <backgroundColor>eeeeeecc</backgroundColor>
+
+            <!-- System view -->
+            <systemCarouselColor>eeeeeecc</systemCarouselColor>
+            <systemCarouselTextColor>7d7d7d</systemCarouselTextColor>
+            <systemGameCounterColor>7d7d7d</systemGameCounterColor>
+            <systemGameCounterBackgroundColor>eeeeeecc</systemGameCounterBackgroundColor>
+
+            <systemInfoTextColor>7d7d7d</systemInfoTextColor>
+            <systemHelpColor>eeeeeecc</systemHelpColor>
+            <systemHelpColorDimmed>7d7d7d</systemHelpColorDimmed>
+
+            <!-- Gamelist view -->
+            <gamelistBackFrameColor>9F9F9F</gamelistBackFrameColor>
+            <gamelistTextlistSelectorColor>33333399</gamelistTextlistSelectorColor>
+            <gamelistTextlistSelectedColor>eeeeee</gamelistTextlistSelectedColor>
+            <gamelistTextlistPrimaryColor>000000</gamelistTextlistPrimaryColor>
+            <gamelistTextlistSecondaryColor>000000</gamelistTextlistSecondaryColor>
+            <gamelistCustomCollectionsHeaderColor>202020</gamelistCustomCollectionsHeaderColor>
+
+            <gamelistDefaultTextColor>262626</gamelistDefaultTextColor>
+            <gamelistInfoColor>505050</gamelistInfoColor>
+            <gamelistRatingColor>FFFFFF</gamelistRatingColor>
+
+            <gamelistHelpColor>262626</gamelistHelpColor>
+            <gamelistHelpColorDimmed>B6B6B6</gamelistHelpColorDimmed>
+        </variables>
+    </colorScheme>
+	
+</theme>

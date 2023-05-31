@@ -1,0 +1,23 @@
+<theme>
+    <view name="system">
+        <text name="info">
+            <text>
+				Developer:  Sinclair Research
+				
+				Manufacturer:  Timex Corporation
+				
+				Released:  1982
+				
+				Units sold:  5 million
+				
+				OS:  Sinclair BASIC
+				
+				CPU:  8-bit Zilog Z80 (or equivalent) @ 3.5 MHz
+				
+				RAM:  16, 48 or 128 KB depending on model
+				
+				Media:  Cartridge, cassette, 3-inch floppy disk (on Spectrum +3)
+			</text>
+        </text>
+    </view>
+</theme>
