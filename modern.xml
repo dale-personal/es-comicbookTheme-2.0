@@ -118,27 +118,24 @@
             <color>${backgroundColor}</color>
             <zIndex>1</zIndex>
         </image>
-		
-		<carousel name="gamelistCarousel">
+
+        <textlist name="gamelistTextlist">
 			<pos>0.0125 0.15</pos>
 			<size>0.25 0.75</size>
-            <type>vertical</type>
-			<selectedItemMargins>0.05 0.05</selectedItemMargins>
-			<imageType>none</imageType>
-            <maxItemCount>11</maxItemCount>
-            <itemSize>0.25 0.125</itemSize>
-            <itemScale>1</itemScale>
-            <imageInterpolation>linear</imageInterpolation>
-            <itemHorizontalAlignment>left</itemHorizontalAlignment>
-            <horizontalOffset>0</horizontalOffset>
-            <verticalOffset>0</verticalOffset>
-            <color>00000000</color>
+            <selectorColor>${gamelistTextlistSelectorColor}</selectorColor>
+            <selectedColor>${gamelistTextlistSelectedColor}</selectedColor>
+            <primaryColor>${gamelistTextlistPrimaryColor}</primaryColor>
+            <secondaryColor>${gamelistTextlistSecondaryColor}</secondaryColor>
             <fontPath>./_assets/fonts/Active_Font.ttf</fontPath>
             <fontSize>0.025</fontSize>
-            <letterCase>none</letterCase>
-            <lineSpacing>1.3</lineSpacing>
-            <zIndex>80</zIndex>
-        </carousel>
+            <horizontalAlignment>left</horizontalAlignment>
+            <horizontalMargin>0.00</horizontalMargin>
+            <textHorizontalScrollDelay>0.5</textHorizontalScrollDelay>
+            <letterCase>capitalize</letterCase>
+            <lineSpacing>2.0</lineSpacing>
+            <indicators>symbols</indicators>
+            <collectionIndicators>symbols</collectionIndicators>
+        </textlist>
 		
         <helpsystem name="help">
             <pos>0.012 0.955</pos>
@@ -284,7 +281,7 @@
             <letterCase>none</letterCase>
             <lineSpacing>1.2</lineSpacing>
         </text>
-		
+
     </view>
 
 </theme>

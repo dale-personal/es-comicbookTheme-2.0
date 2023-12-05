@@ -274,7 +274,7 @@
             <unfilledPath>./_assets/images/rating_empty.svg</unfilledPath>
             <overlay>false</overlay>
         </rating>
-		
+
     </view>
 
 </theme>
