@@ -132,7 +132,7 @@
         </video>
        
 		<image name="boxCover">
-			<imageType>cover</imageType>
+			<imageType>cover,titlescreen,physicalmedia,fanart</imageType>
 			<default>./${system.theme}/consolegame.svg</default>
 			<pos>0.918 0.525</pos>
 			<maxSize>0.127 0.17</maxSize>

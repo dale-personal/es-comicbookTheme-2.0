@@ -184,7 +184,7 @@
         </video>
        
 		<image name="boxCover">
-			<imageType>cover</imageType>
+			<imageType>cover,titlescreen,physicalmedia,fanart</imageType>
 			<default>${comicRip}</default>
 			<pos>0.86 0.67</pos>
 			<maxSize>0.26 0.46</maxSize>
